@@ -277,4 +277,3 @@ def combine_and_upload_to_s3(s3_client, data1, data2, BUCKET_NAME, key, total_ti
     # Upload the combined JSON data to S3
     upload_to_s3(s3_client, json_data, BUCKET_NAME, key)
 
-
